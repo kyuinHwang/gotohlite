@@ -43,9 +43,8 @@ Shell script for compilation (compile.sh)
 ## Usage
 
 ### Environment Setup
-1. Add gotohlite to your Python path
-
 If you cloned gotohlite somewhere outside your working directory, you can add it to PYTHONPATH like this:
+1. Add gotohlite to your Python path
 
 ```python
 import sys
