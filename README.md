@@ -42,6 +42,7 @@ Shell script for compilation (compile.sh)
 
 ## Usage
 
+### Environment Setup
 1. Add gotohlite to your Python path
 
 If you cloned gotohlite somewhere outside your working directory, you can add it to PYTHONPATH like this:
@@ -58,7 +59,7 @@ You can also export PYTHONPATH in your shell profile for convenience:
 export PYTHONPATH=$PYTHONPATH:/absolute/path/to/gotohlite
 ```
 
-### Basic Usage
+### Running Examples
 
 ```python
 from gotohlite import cglobal_alignment
