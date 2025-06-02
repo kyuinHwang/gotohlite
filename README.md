@@ -37,11 +37,13 @@ C source file (.c)
 Precompiled object file (.o)
 Shared library (.so)
 Shell script for compilation (compile.sh)
+
 💡 If the precompiled .so files are incompatible with your system, please refer to the included compile.sh script in each directory to rebuild.
 
 ## Usage
 
 1. Add gotohlite to your Python path
+
 If you cloned gotohlite somewhere outside your working directory, you can add it to PYTHONPATH like this:
 
 ```python
@@ -50,6 +52,7 @@ sys.path.append("/path/to/gotohlite")  # Replace with actual path
 ```
 
 2. Alternative: Set PYTHONPATH permanently (optional)
+
 You can also export PYTHONPATH in your shell profile for convenience:
 ```bash
 export PYTHONPATH=$PYTHONPATH:/absolute/path/to/gotohlite
